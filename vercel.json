@@ -15,6 +15,6 @@
         "dest": "/"
       }
     ],
-    "buildCommand": "bash build.sh && pip install -r requirements.txt"
-  }
+    "buildCommand": "bash build.sh"
+}
   
