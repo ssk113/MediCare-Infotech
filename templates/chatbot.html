@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medicare Infotech Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      #chatbotIframe {
+        display: none;
+        width: 100%;
+        max-width: 600px; /* Adjust max-width as needed */
+        height: 500px; /* Adjust height as needed */
+        border: none;
+        margin: 0 auto; /* Center the iframe */
+      }
+    </style>
+  </head>
+  <body>
+
+  <div class="container my-4 mt-4 text-center">
+    <h5>Medicare Infotech Chatbot</h5>
+    <p>Welcome to the Medicare Infotech Chatbot! This LLM-powered chatbot provides information about various diseases and healthcare topics. Click the button below to interact with our chatbot and get the answers you need.</p>
+    
+    <button id="chatbotButton" class="btn btn-primary mb-4">Open Chatbot</button>
+    <iframe id="chatbotIframe" src="https://www.chatbase.co/chatbot-iframe/26UsncqlDtjL5Jtt2BmeU"></iframe>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('chatbotButton').addEventListener('click', function() {
+      var iframe = document.getElementById('chatbotIframe');
+      iframe.style.display = 'block';
+    });
+  </script>
+  </body>
+</html>
