@@ -4,6 +4,4 @@ Werkzeug==2.0.3
 numpy>=1.21
 pandas
 pickle-mixin
-gunicorn
-setuptools
 
