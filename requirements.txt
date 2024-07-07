@@ -5,3 +5,5 @@ numpy>=1.21
 pandas
 pickle-mixin
 gunicorn
+setuptools
+
