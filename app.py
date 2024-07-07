@@ -126,3 +126,6 @@ def post2():
 def post3():
     return render_template("post3.html")
 
+if __name__ == '__main__':
+
+    app.run(debug=True)
